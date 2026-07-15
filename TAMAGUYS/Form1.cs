@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace TAMAGUYS
 {
-    public partial class Form1 : Form
+    public partial class Tamaguys : Form
     {
-        public Form1()
+        public Tamaguys()
         {
             InitializeComponent();
+        }
+
+        private void Tamaguys_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
